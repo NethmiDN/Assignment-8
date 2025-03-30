@@ -8,6 +8,7 @@ body{
     max-width: 100%;
     box-sizing: border-box;
 }
+
 header{
     display: flex;
     width: 100%;
@@ -17,25 +18,30 @@ header{
     position: fixed;
     top: 0;
 }
+
 header h2{
     color: white;
     margin-left: 20px;
 }
+
 ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
 }
+
 li{
     list-style: none;
 }
+
 header nav{
     display: flex;
     width: 100%;
     justify-content: end;
     margin-right: 20px;
 }
+
 a{
     text-decoration: none;
     color: red;
@@ -44,11 +50,11 @@ a{
     border: 1px solid rgb(184, 183, 183);
 }
 
-/*  */
 #Home{
     height: 100vh;
     padding-top: 20px;
 }
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -70,6 +76,7 @@ a{
     margin: 10px;
     box-sizing: border-box;
 }
+
 .card h4{
     width: 290px;
     padding: 5px;
@@ -77,14 +84,17 @@ a{
     margin: 0;
     color: #f9f7f7;
 }
+
 .card h3{
     margin-left: 260px;
     margin-top: 30px;
     color: gray;
 }
+
 .card img{
     margin-left: 10px;
 }
+
 .card button{
     margin-left: 250px;
     margin-top: 30px;
@@ -92,6 +102,7 @@ a{
     color: white;
     border-color: transparent;
 }
+
 @media (min-width: 1000px) and (max-width: 1440px){
     .card {
         width: 200px;
@@ -107,15 +118,14 @@ a{
         margin-left: 150px;
     }
 }
+
 @media (min-width: 768px) and (max-width: 999px) {
    body{
     overflow-y: scroll;
    }
-   
 }
 
 @media (min-width: 350px) and (max-width: 550px) {
-
     body {
         overflow-y: scroll;
     }

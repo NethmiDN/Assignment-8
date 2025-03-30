@@ -1,6 +1,5 @@
 #Item {
     display: flex;
-    
     height: 100vh;
     margin-top: 70px;
 }
@@ -61,7 +60,6 @@
     margin-top: 5px;
 }
 
-
 .item-table{
     margin-top: 20px;
     border-collapse: collapse;
@@ -80,8 +78,7 @@
     width: 95%;
 }
 
-.item-table thead tr,
-td {
+.item-table thead tr,td {
     height: 30px;
     padding-left: 10px;
     border: 1px solid rgb(186, 186, 186);
@@ -104,6 +101,7 @@ input[type="text"]:focus {
 tbody tr:hover {
     background-color: rgb(186, 186, 186);
 }
+
 @media (min-width: 768px) and (max-width: 999px) {
     
     #Item {
@@ -116,6 +114,7 @@ tbody tr:hover {
     }
 
 }
+
 @media (min-width: 350px) and (max-width: 550px) {
     .input1 {
         width: 300px;

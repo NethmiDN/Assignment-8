@@ -215,5 +215,4 @@ $(document).ready(function () {
         console.log(custCount)
         $('.custCount').text(custCount);
      }
-
 });

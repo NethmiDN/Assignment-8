@@ -33,7 +33,5 @@ $(document).ready(function () {
                 $('.main-heading').text("Place Order")
             }
         }
-    };
-
-    
+    };    
 });

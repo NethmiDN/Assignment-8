@@ -41,22 +41,27 @@
 
 .btnSave{
     background-color: skyblue;
+    border-radius: 5px;
 }
 
 .btnRemove{
     background-color: red;
+    border-radius: 5px;
 }
 
 .btnUpdate{
     background-color: yellow;
+    border-radius: 5px;
 }
 
 .btnGetAll{
     background-color: green;
+    border-radius: 5px;
 }
 
 .btnClear{
     background-color: red;
+    border-radius: 5px;
 }
 
 .error{

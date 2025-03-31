@@ -36,22 +36,27 @@
 
 .btnSaveItem {
     background-color: skyblue;
+    border-radius: 5px;
 }
 
 .btnRemoveItem {
     background-color: red;
+    border-radius: 5px;
 }
 
 .btnUpdateItem {
     background-color: yellow;
+    border-radius: 5px;
 }
 
 .btnGetAllitem {
     background-color: green;
+    border-radius: 5px;
 }
 
 .btnClear {
     background-color: red;
+    border-radius: 5px;
 }
 
 .error {
